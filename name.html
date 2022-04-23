@@ -1,0 +1,19 @@
+<form>
+    <label for="fname">First Name: </label>
+    <input type="text" id="fname" name="fname"><br>
+  </form>
+  <button type="button" onclick="even()">
+    Click to Enter Name
+  </button>
+  <script>
+      function even() {
+  var name = document.getElementById('fname').value
+  if (name == 'Priyanshu' || name == 'Khushi') {
+    alert('Correct Name')
+  } else {
+    alert('Incorrect Name!')
+  }
+  console.log(`name is entered ${name}`)
+}
+
+  </script>
